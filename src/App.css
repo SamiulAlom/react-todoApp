@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  font-family: "open sans";
+}
+/* TodoList.css */
+
+.todo-container {
+  max-width: 60vw;
+  margin: 20vh auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+
+.todo-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.todo-input input {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.todo-input button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #983bf0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-input button:hover {
+  background-color: #350d75;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.task-item.completed {
+  opacity: 0.7;
+  background-color: #bef7be;
+  color: #0d0918;
+  font-weight: 600;
+}
+
+.task-item span {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+  padding: 6px 12px;
+  background-color: #eb3e55;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-buttons button:hover {
+  background-color: #b3054d;
+}
